@@ -7,68 +7,74 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <h1>Welcome to Our Luxury Beauty Salon</h1>
-        <p>Indulge yourself in a world of beauty and relaxation.</p>
+    <header>
+        <div class="hero">
+            <h1>Welcome to Our Luxury Beauty Salon</h1>
+            <p>Experience the ultimate in beauty and relaxation.</p>
+            <a href="#booking" class="cta">Book Now</a>
+        </div>
     </header>
 
-    <section class="about">
+    <section id="about">
         <h2>About Us</h2>
-        <p>At our luxury beauty salon, we provide premium services tailored to your needs, ensuring that each visit is a unique experience.</p>
+        <p>Our salon is dedicated to providing the highest quality beauty services in a luxurious environment.</p>
     </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
+    <section id="services">
+        <h2>Services</h2>
         <ul>
-            <li>Facials</li>
             <li>Hair Styling</li>
-            <li>Makeup</li>
-            <li>Massage Therapy</li>
-            <li>Nail Art</li>
+            <li>Makeup Application</li>
+            <li>Skincare Treatments</li>
+            <li>Nail Services</li>
         </ul>
     </section>
 
-    <section class="boutique-experience">
+    <section id="boutique-experience">
         <h2>Boutique Experience</h2>
-        <p>Our boutique experience offers an exclusive selection of beauty products, handpicked just for you.</p>
+        <p>Enjoy personalized services tailored just for you in a serene atmosphere.</p>
     </section>
 
-    <section class="gallery">
-        <h2>Before and After Gallery</h2>
-        <div class="gallery-images">
-            <img src="before.jpg" alt="Before Treatment" />
-            <img src="after.jpg" alt="After Treatment" />
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Salon interior">
+            <img src="image2.jpg" alt="Makeup application">
+            <img src="image3.jpg" alt="Nail services">
         </div>
     </section>
 
-    <section class="testimonials">
+    <section id="testimonials">
         <h2>Testimonials</h2>
         <blockquote>
-            <p>"The best beauty salon I've ever visited! Highly recommend their services." - Happy Customer</p>
+            <p>"This was the best salon experience I've ever had!" - Happy Customer</p>
         </blockquote>
     </section>
 
-    <section class="booking-form">
+    <section id="booking">
         <h2>Book an Appointment</h2>
         <form>
-            <label for="name">Your Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+
             <label for="date">Date:</label>
             <input type="date" id="date" name="date" required>
+
             <label for="time">Time:</label>
             <input type="time" id="time" name="time" required>
-            <input type="submit" value="Book Now">
+
+            <button type="submit">Submit</button>
         </form>
     </section>
 
-    <section class="contact">
+    <section id="contact">
         <h2>Contact Us</h2>
         <p>Email: info@luxurybeautysalon.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Phone: +1 234 567 8901</p>
     </section>
 
     <footer>
-        <p>&copy; 2026 Luxury Beauty Salon. All Rights Reserved.</p>
+        <p>&copy; 2026 Luxury Beauty Salon. All rights reserved.</p>
     </footer>
 </body>
 </html>
