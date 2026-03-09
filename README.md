@@ -1,37 +1,36 @@
-# Проект веб-сайту "Розкішний салон краси"
+# Luxury Beauty Salon Project Documentation
 
-## Опис проекту
-Веб-сайт "Розкішний салон краси" – це платформа, що надає послуги для догляду за собою та покращення зовнішнього вигляду. Сайт дозволяє користувачам записуватися на послуги, переглядати пропозиції та знайомитися з командою професіоналів.
+## Project Overview
+This project is a comprehensive application designed to manage a luxury beauty salon. It provides features for appointment booking, service management, customer management, and much more.
 
-## Особливості
-- Інтуїтивно зрозумілий інтерфейс користувача.
-- Можливість запису на послуги онлайн.
-- Каталог послуг з детальними описами.
-- Розділ відгуків для клієнтів.
-- Мо��ільна адаптація для зручності використання на смартфонах.
-
-## Інструкція з установки
-1. Клонуйте репозиторій:
+## Installation Instructions
+1. Clone the repository:
    ```bash
    git clone https://github.com/churm2023-max/luxury-beauty-salon.git
    ```
-2. Перейдіть у каталог проекту:
+2. Navigate into the application directory:
    ```bash
    cd luxury-beauty-salon
    ```
-3. Встановіть залежності:
+3. Install the required dependencies:
    ```bash
    npm install
    ```
-4. Запустіть веб-сайт:
+4. Run the application:
    ```bash
    npm start
    ```
 
-## Інструкція з використання
-- Відвідайте основну сторінку, щоб переглянути доступні послуги.
-- Оберіть бажану послугу та заповніть форму для запису.
-- Після підтвердження заявки на вашою електронній пошті буде надіслано сповіщення.
+## Features
+- **Appointment Booking:** Customers can easily schedule appointments online.
+- **Service Management:** Manage different beauty services with pricing and availability.
+- **Customer Management:** Keep track of customer details and history.
+- **User Authentication:** Secure login for users and administrators.
 
-## Контакти
-Для додаткової інформації, будь ласка, зверніться до нас за електронною адресою: info@luxurybeautysalon.com
+## Usage Guidelines
+- After successfully installing the application, navigate to `http://localhost:3000` to access the application.
+- Users can create an account and log in to book appointments and manage their profiles.
+- Administrators have additional capabilities to manage services and view customer data.
+
+## Conclusion
+This documentation should provide you with a solid foundation to get started with the Luxury Beauty Salon application. For any issues, please reach out via the repository's issues section.
